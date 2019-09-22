@@ -9,11 +9,11 @@
 
 ## Romaji, Kana, and Kanji Detection
 
-    MojiDetector detector = new MojiDetector();
+    val detector = new KanaKanjiDetector();
 
-    detector.hasKanji("まっ暗"); // true
-    detector.hasKanji("まっしろ"); // false
-    detector.hasKana("ウソ付き"); // true
-    detector.hasKana("東京"); // false
-    detector.hasRomaji("モデル XYZ"); // true
-    detector.hasRomaji("フルーツ"); // false
+    detector.hasKanji("まっ暗") // true
+    detector.hasKanji("まっしろ") // false
+    detector.hasKana("ウソ付き") // true
+    detector.hasKana("東京") // false
+    detector.hasRomaji("モデル XYZ") // true
+    detector.hasRomaji("フルーツ") // false
