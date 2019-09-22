@@ -3,9 +3,9 @@
     val converter = new KanaRepo(context)
 
     converter.romajiToHiragana("Hiragana") // ひらがな
-    converter.romajiToHiragana("Katakana") // カタカナ
-    converter.romajiToHiragana("ひらがな") // hiragana
-    converter.romajiToHiragana("カタカナ") // katakana
+    converter.romajiToKatakana("Katakana") // カタカナ
+    converter.kanaToRomaji("ひらがな") // hiragana
+    converter.kanaToRomaji("カタカナ") // katakana
 
 ## Romaji, Kana, and Kanji Detection
 
